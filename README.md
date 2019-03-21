@@ -17,6 +17,6 @@ Assuming everything goes correctly, you should see the following printed:
 
 ```
 Finished authorization code flow with PKCE
-Verified that tokens cannot be exchanged when code verifier is invalid
-Verified that tokens cannot be exchange when code verifier is not present
+Verified that code cannot be exchanged when code verifier is invalid
+Verified that code cannot be exchanged when code verifier is not present
 ```

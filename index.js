@@ -147,11 +147,11 @@ const assertExchangeWithNoVerifier = async () => {
 
         await assertExchangeWithIncorrectVerifier();
 
-        console.log('Verified that tokens cannot be exchanged when code verifier is invalid');
+        console.log('Verified that code cannot be exchanged when code verifier is invalid');
 
         await assertExchangeWithNoVerifier();
 
-        console.log('Verified that tokens cannot be exchange when code verifier is not present');
+        console.log('Verified that code cannot be exchanged when code verifier is not present');
 
     } catch (error) {
         console.log(error.message);
